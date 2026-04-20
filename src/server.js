@@ -1,6 +1,7 @@
 import dotenv from "dotenv"
 import express from "express"
 import jwt from "jsonwebtoken"
+import db from "../dbConfig/db.js"
 
 
 const app = express()
